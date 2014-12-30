@@ -1,0 +1,8 @@
+---
+- name: Update DHCP
+  hosts: dhcp
+  sudo: yes
+  gather_facts: yes
+  roles:
+     - dhcp
+

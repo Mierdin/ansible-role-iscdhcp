@@ -1,0 +1,5 @@
+[all:vars]
+ansible_sudo_pass=password123!
+
+[dhcp]
+10.12.0.85

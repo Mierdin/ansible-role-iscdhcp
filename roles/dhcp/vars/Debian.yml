@@ -1,0 +1,7 @@
+#Debian.yml
+---
+dhcpserver: 'isc-dhcp-server'
+conftemplate: 'roles/dhcp/templates/dhcpd.conf.j2'
+conffile: '/etc/dhcp/dhcpd.conf'
+
+#TODO: I thought I didn't need to provide a path for templates when using roles. Look into this.
